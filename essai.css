@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: rgb(45, 196, 45);
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header .logo{
+   position: relative;
+   left: 260px;
+   top: 34px;
+}
+header .logo img{
+    width: 20px;
+    height: 20px;
+}
+nav{
+   position: relative;
+    float: right;
+    margin-right: 300px;
+    top: 15px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    text-align: justify;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+   
+}
+header .fr{
+   position: relative;
+   top: 15px;
+   left: 1050px;
+
+}
+ .contain{
+     width: 80%;
+     height: 500px;
+     margin: 50px auto;
+  
+ }
+ .contain .text{
+     float: left;
+     height: 100%;
+     width: 49%;
+     
+     
+ }
+ .contain .text h1{
+     bottom: 25px;
+     margin: 150px 10px 0 134px;
+
+ }
+
+.contain .text p{
+    width: 50%;
+   margin: auto;
+   text-align: justify;
+}
+.contain .text a{
+    margin: 550px 80px 0 134px;
+    top: -100px;
+}
+ .contain .capture{
+    float: left;
+    height: 100%;
+    width: 49%;
+    text-align: left;
+     }
+
+ .contain .capture img{
+     width: 40%;
+     height: 425px;
+    margin: 30px 100px 25px 30px;
+ }
+ .container{
+    width: 80%;
+    height: 600px;
+    margin: 50px auto;
+   
+ }
+ .container .cap{
+    float: left;
+    height: 100%;
+    width: 49%;
+    
+    background-color: rgb(230, 230, 252);
+ }
+ .container .cap p{
+     text-align: center;
+     margin: auto;
+     width: 90%;
+ }
+ .container .cap img{
+     width: 50%;
+     height: 290px;
+     margin: 55px 25% 0 24%;
+ }
+ .container .tex{
+    float: right;
+    height: 100%;
+    width: 49%;
+   
+    background-color: rgb(238, 238, 253);
+ }
+ .border{
+     border-radius: 50%;
+     background-color: rgb(93, 239, 250);
+     border: 1px rgb(97, 250, 97);
+     width: 45%;
+     height:200px;
+     margin: 80px 150px;
+ }
+ .border .rec{
+   position: relative;
+   top: 80px;
+   left: 88px;
+ }
+ .rect p{
+    position: relative;
+    top: -10px;
+    text-align: center;
+    
+ }
+ .container .tex .te{
+     text-align: center;
+ }
+ #dec{
+     margin: auto;
+     text-align: center;
+ }
+ #dec a{
+     padding: 20px;
+     border: 1px solid rgb(35, 252, 35);
+     border-radius: 50px;
+     color: rgb(35, 252, 35);
+     text-decoration: none;
+     font-weight: bolder;
+ }
+ footer{
+     width: 100%;
+     height: 230px;
+     background-color: rgb(19, 18, 18);
+     margin: 50px 0 0 0 ;
+ }
+ footer.foot{
+    display: inline;
+ }
+ footer .wat{
+     width: fit-content;
+     margin: auto;
+     padding-top: 30px;
+     margin-right: 900px;
+     
+  
+ }
+ footer .wat li{
+    list-style: none;
+    margin-right: 15px;
+    text-align: justify;
+ }
+ footer .wat ul li:first-of-type{
+    color: grey;
+    font-weight: bolder;
+    margin-bottom: 15px;
+ }
+ .wat ul li a{
+     text-decoration: none;
+    color: white;
+    text-align : right;
+    line-height: 20px;
+ }
+ footer .soc{
+    width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+    margin-right: 680px;
+    margin-top: -179px;
+ }
+ footer .soc ul li:first-of-type{
+    color: grey;
+    font-weight: bolder;
+    margin-bottom: 15px;
+ }
+ footer .soc ul li{
+    list-style: none;
+    margin-right: 15px;
+    text-align: justify;
+ }
+ .soc ul li a{
+    text-decoration: none;
+    color: white;
+    text-align : right;
+    line-height: 20px;
+     
+ }
+ footer .tel{
+    width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+    margin-right: 550px;
+    margin-top: -179px;
+ }
+footer .tel ul li:first-of-type{
+   color: grey;
+   font-weight: bolder;
+   margin-bottom: 15px;
+}
+ footer .tel ul li{
+    list-style: none;
+    margin-right: 15px;
+    text-align: justify;
+ }
+ .tel ul li a{
+    text-decoration: none;
+    color: white;
+    text-align : right;
+    line-height: 20px;
+     
+ }
+ footer .ass{
+    width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+    margin-right: 400px;
+    margin-top: -115px;
+ }
+ footer .ass ul li:first-of-type{
+    color: grey;
+    font-weight: bolder;
+    margin-bottom: 15px;
+ }
+ footer .ass ul li{
+    list-style: none;
+    margin-right: 15px;
+    text-align: justify;
+ }
+ .ass ul li a{
+    text-decoration: none;
+    color: white;
+    text-align : right;
+    line-height: 20px;
+     
+ }
+ footer .inc h6{
+    width: fit-content;
+    margin: auto ;
+    padding-top: 30px;
+    margin-right: 915px;
+    margin-top: 25px;
+ }
+ footer .con h6{
+    width: fit-content;
+    margin: auto;
+   margin-left: 498px;
+   margin-top: -10px;
+ }
+ 
