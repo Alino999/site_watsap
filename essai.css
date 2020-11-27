@@ -10,7 +10,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000px;
+    z-index: 1;
 }
 header .logo{
    position: relative;
@@ -135,6 +135,9 @@ header .fr{
     position: relative;
     top: -10px;
     text-align: center;
+    
+ }
+ .border .rec img{
     
  }
  .container .tex .te{
